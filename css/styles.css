@@ -1,6 +1,111 @@
-body {
-    background-color: #ffffff;
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --hero-text-color: #FFFFFF;
+    --nav-text-color: #2196F3;
+    --adress-text-color: rgba(255, 255, 255, 0.6);
+    --button-text-background: #F5F4FA;
 }
+
+body {
+    background: var(--hero-text-color);
+    color: var(--main-text-color);
+}
+
 ul {
-    list-style: none;
+list-style: none;
+}
+
+.logo { 
+    color: var(--nav-text-color);
+}
+.color-text {
+    color: var(--main-text-color);
+}
+.site-nav {
+    color: var(--main-text-color);
+}
+
+.site-nav-current {
+color: var(--nav-text-color);
+}
+
+
+.link {
+    color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--nav-text-color);
+}
+
+
+.link-current {
+    color: var(--nav-text-color);
+}
+
+.site-nav{
+    color: var(--main-text-color);
+}
+
+.site-nav:hover, .site-nav:focus {
+    color: var(--nav-text-color);
+}
+
+.main-title {
+    color: var(--hero-text-color);
+}
+
+.button {
+    color: var(--hero-text-color);
+}
+
+.button:hover {
+    color: var(--main-text-color);
+}
+
+.button {
+    background: var(--nav-text-color);
+}
+
+.section-subtitle {
+    color: var(--main-text-color);
+}
+
+.section-text {
+    color: var(--secondary-text-color);
+}
+
+.section-title {
+    color: var(--main-text-color);
+}
+
+.address {
+    color: var(--adress-text-color);
+}
+
+.button-nav {
+    color: var(--main-text-color);
+}
+
+
+.button-nav {
+    background: var(--button-text-background);
+}
+
+.button-nav:hover {
+    color: var(--hero-text-color);
+}
+
+.button-nav:hover {
+    background: var(--nav-text-color);
+}
+
+.button-nav-current {
+    color: var(--hero-text-color);
+}
+
+.button-nav-current {
+    background: var(--nav-text-color);
 }
