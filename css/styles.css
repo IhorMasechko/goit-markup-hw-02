@@ -10,29 +10,78 @@
 body {
     background: var(--hero-text-color);
     color: var(--main-text-color);
+    font-family: roboto, sans-serif;
 }
 
 ul {
 list-style: none;
 }
 
+.logo-link {
+
+    font-family: raleway, sans-serif;
+    text-decoration: none;
+}
+
 .logo { 
     color: var(--nav-text-color);
+
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
 }
-.color-text {
+
+.logo-top {
     color: var(--main-text-color);
 }
+
+.logo-buttom {
+    color: var(--hero-text-color);
+
+}
+
+
+
 .site-nav {
     color: var(--main-text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+
+.site-nav:hover,
+.site-nav:focus {
+    color: var(--nav-text-color);
 }
 
 .site-nav-current {
 color: var(--nav-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+text-decoration: none;
 }
 
 
 .link {
     color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .link:hover,
@@ -43,23 +92,49 @@ color: var(--nav-text-color);
 
 .link-current {
     color: var(--nav-text-color);
-}
 
-.site-nav{
-    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
+ 
+.main {
+    background-color: #2F303A;
 
-.site-nav:hover, .site-nav:focus {
-    color: var(--nav-text-color);
 }
 
 .main-title {
     color: var(--hero-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+  
 }
 
 .button {
     color: var(--hero-text-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    display: block;
+    
 }
+
+
 
 .button:hover {
     color: var(--main-text-color);
@@ -71,22 +146,68 @@ color: var(--nav-text-color);
 
 .section-subtitle {
     color: var(--main-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 
 .section-text {
     color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
 }
 
 .section-title {
     color: var(--main-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.buttom {
+    background-color: #2F303A;
 }
 
 .address {
+    color: var(--hero-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+}
+
+.contacts {
     color: var(--adress-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* identical to box height, or 171% */
+    letter-spacing: 0.03em;
+
 }
 
 .button-nav {
     color: var(--main-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
@@ -108,4 +229,10 @@ color: var(--nav-text-color);
 
 .button-nav-current {
     background: var(--nav-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
