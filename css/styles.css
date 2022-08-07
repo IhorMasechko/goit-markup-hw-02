@@ -10,7 +10,7 @@
 body {
     background: var(--hero-text-color);
     color: var(--main-text-color);
-    font-family: roboto, sans-serif;
+    font-family: roboto, sans-serif; 
 }
 
 ul {
@@ -131,6 +131,8 @@ text-decoration: none;
     letter-spacing: 0.06em;
     margin: 0 auto;
     display: block;
+    background: var(--nav-text-color);
+    cursor: pointer;
     
 }
 
@@ -140,9 +142,6 @@ text-decoration: none;
     color: var(--main-text-color);
 }
 
-.button {
-    background: var(--nav-text-color);
-}
 
 .section-subtitle {
     color: var(--main-text-color);
@@ -179,8 +178,11 @@ text-decoration: none;
     background-color: #2F303A;
 }
 
-.address {
+.location {
     color: var(--hero-text-color);
+
+    font-style: normal;
+    
 
     font-weight: 400;
     font-size: 14px;
@@ -200,6 +202,11 @@ text-decoration: none;
 
 }
 
+.contacts:hover,
+.contacts:focus {
+    color: var(--nav-text-color);
+}
+
 .button-nav {
     color: var(--main-text-color);
 
@@ -208,26 +215,19 @@ text-decoration: none;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-}
-
-
-.button-nav {
     background: var(--button-text-background);
+    cursor: pointer;
 }
+
 
 .button-nav:hover {
     color: var(--hero-text-color);
-}
-
-.button-nav:hover {
     background: var(--nav-text-color);
 }
 
-.button-nav-current {
-    color: var(--hero-text-color);
-}
 
 .button-nav-current {
+    color: var(--hero-text-color);
     background: var(--nav-text-color);
 
     font-weight: 500;
