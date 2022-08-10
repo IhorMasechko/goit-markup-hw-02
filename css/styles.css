@@ -117,7 +117,7 @@ color: var(--nav-text-color);
     
 }
 
-.button {
+.button-main {
     color: var(--hero-text-color);
 
     font-family: inherit;
@@ -137,8 +137,8 @@ color: var(--nav-text-color);
 
 
 
-.button:hover,
-.contacts:focus {
+.button-main:hover,
+.button-main:focus {
     color: var(--main-text-color);
 }
 
