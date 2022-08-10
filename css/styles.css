@@ -10,11 +10,15 @@
 body {
     background: var(--hero-text-color);
     color: var(--main-text-color);
-    font-family: roboto, sans-serif; 
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 ul {
 list-style: none;
+}
+a {
+    text-decoration: none;
 }
 
 .logo-link {
@@ -47,7 +51,6 @@ list-style: none;
 
 .site-nav {
     color: var(--main-text-color);
-    text-decoration: none;
 
     font-weight: 500;
     font-size: 14px;
@@ -70,7 +73,6 @@ color: var(--nav-text-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-text-decoration: none;
 }
 
 
@@ -81,7 +83,6 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .link:hover,
@@ -97,7 +98,6 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
  
 .main {
@@ -115,7 +115,6 @@ text-decoration: none;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
-  
 }
 
 .button {
@@ -138,7 +137,8 @@ text-decoration: none;
 
 
 
-.button:hover {
+.button:hover,
+.contacts:focus {
     color: var(--main-text-color);
 }
 
@@ -149,7 +149,6 @@ text-decoration: none;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 
 }
@@ -157,11 +156,8 @@ text-decoration: none;
 .section-text {
     color: var(--secondary-text-color);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    /* or 171% */
-    letter-spacing: 0.03em;
 }
 
 .section-title {
@@ -171,7 +167,6 @@ text-decoration: none;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .buttom {
@@ -180,25 +175,17 @@ text-decoration: none;
 
 .location {
     color: var(--hero-text-color);
-
-    font-style: normal;
     
-
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
-
+    font-style: normal;
 }
 
 .contacts {
     color: var(--adress-text-color);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    /* identical to box height, or 171% */
-    letter-spacing: 0.03em;
 
 }
 
@@ -210,11 +197,11 @@ text-decoration: none;
 .button-nav {
     color: var(--main-text-color);
 
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     background: var(--button-text-background);
     cursor: pointer;
 }
@@ -234,5 +221,4 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
 }
