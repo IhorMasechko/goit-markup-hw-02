@@ -15,7 +15,7 @@ body {
 }
 
 ul {
-list-style: none;
+    list-style: none;
 }
 a {
     text-decoration: none;
@@ -32,7 +32,7 @@ button {
     text-decoration: none;
 }
 
-.logo { 
+.logo-link { 
     color: var(--nav-text-color);
 
     font-family: raleway, sans-serif;
@@ -184,12 +184,16 @@ color: var(--nav-text-color);
     line-height: 1.7;
     font-style: normal;
 }
+.location:hover,
+.location:focus {
+    color: var(--nav-text-color)
+}
 
 .contacts {
     color: var(--adress-text-color);
-
     font-size: 14px;
     line-height: 1.7;
+    font-style: normal;
 
 }
 
